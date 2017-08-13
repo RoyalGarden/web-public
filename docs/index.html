@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Royal Garden</title>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="Royal Garden offers freshly prepared Chinese food delivered straight to your doorstep in Hartlepool. Tel: 01429 812280." />
+<meta name="keywords" content="Royal Garden Chinese food takeaway Hartlepool delivered" />
+<!-- //Custom Theme files -->
+<!-- Responsive Styles and Valid Styles -->
+<style type="text/css">    	
+	body{
+		width: 100%; 
+		background-color: #fff; 
+		margin:0; 
+		padding:0; 
+		-webkit-font-smoothing: antialiased;
+	}
+	html{
+		width: 100%; 
+	}
+	table{
+		font-size: 14px;
+		border: 0;
+	}
+	.scale.map {
+		background-color: #fff !important;
+	}
+	/*--  Response  -- */
+	@media only screen and (max-width:1080px){
+		.w3ls-bnrtext {
+			font-size: 60px !important;
+			letter-spacing: 7px !important;
+		} 
+		td.w3l-bnrsbtext {
+			letter-spacing: 7px !important;
+		}
+	} 
+	@media only screen and (max-width:800px){
+		.w3ls-bnrtext {
+			font-size: 51px !important;
+			letter-spacing: 6px !important;
+		} 
+		td.w3l-bnrsbtext {
+			letter-spacing: 5px !important;
+		}
+	}
+	 
+	@media only screen and (max-width:667px) {
+		.w3ls-bnrtext {
+			font-size: 51px !important;
+			letter-spacing: 4px !important;
+		}
+		td.w3l-bnrsbtext {
+			letter-spacing: 4px !important;
+			font-size: 13px !important;
+		}
+	}  
+	@media only screen and (max-width: 640px) {
+	
+		body { width: auto !important; }
+		table[class="table600"] { width: 450px !important; } 
+		table[class="table2-2"] { width: 44% !important; text-align: center !important; }
+		table[class="table1-3"] { width: 29% !important; }
+		table[class="table3-1"] { width: 64% !important; text-align: left !important; }
+		table[class="table-full"] { width: 100% !important; text-align: center !important; }
+		/* Image */
+		img[class="img1"] { width: 100% !important; height: auto !important; }
+		/* ETC */
+		td[class="hide"] { max-height: 0px !important; height: 0px !important; }
+		td[class="td-low"] { max-height: 15px !important; height: 25px !important; }
+		td[class="contact-button"] { border-top: 0px !important; } 
+		
+		table.agileits-hleft, table.agileits-rleft {
+			margin: 4px 0 20px;
+		}
+		.agileits-w3layout-text{
+			font-size: 42px !important;
+			letter-spacing: 5px !important;
+		}
+		table[class="table-inner"] {
+			width: 95% !important;
+		}
+	}  
+	/* Responsive */
+	@media only screen and (max-width:630px) {
+
+		/* Tables
+		parameters: width, alignment, padding */
+		table[class=scale] { width: 100%!important; }
+		table[class=scale90] { width: 90%!important; }
+		table[class=scale85] { width: 85%!important; }
+		table[class=scale80] { width: 80%!important; }
+		table[class=scale75] { width: 55%!important; }
+		table[class=scale-reset] { width: 100%!important; height: auto!important; }
+		
+		/* Td */
+		td[class=scale-left] { width: 100%!important; text-align: left!important;}
+		td[class=scale-left-bottom] { width: 100%!important; text-align: left!important; padding-bottom: 25px!important; }
+		td[class=scale-left-top] { width: 100%!important; text-align: left!important; padding-top: 25px!important; }
+		td[class=scale-left-all] { width: 100%!important; text-align: left!important; padding-top: 25px!important; padding-bottom: 25px!important; }
+		td[class=scale-center] { width: 100%!important; text-align: center!important;}
+		td[class=scale-center-both] { width: 100%!important; text-align: center!important; padding-left: 20px!important; padding-right: 20px!important; }
+		td[class=scale-center-both-top] { width: 100%!important; text-align: center!important; padding-left: 20px!important; padding-right: 20px!important; padding-top: 25px!important; }
+		td[class=scale-center-both-bottom] { width: 100%!important; text-align: center!important; padding-left: 20px!important; padding-right: 20px!important; padding-bottom: 25px!important; }
+		td[class=scale-center-both-bottoms] { width: 100%!important; text-align: center!important; padding-left: 20px!important; padding-right: 20px!important; padding-bottom: 10px!important; }
+		td[class=scale-center-bottom] { width: 100%!important; text-align: center!important; padding-bottom: 25px!important; }
+		td[class=scale-center-top] { width: 100%!important; text-align: center!important; padding-top: 25px!important; }
+		td[class=scale-center-all] { width: 100%!important; text-align: center!important; padding-top: 25px!important; padding-bottom: 25px!important; padding-left: 20px!important; padding-right: 20px!important; }
+		td[class=scale-center-extraall] { width: 100%!important; text-align: center!important; padding-top: 54px!important; padding-bottom: 25px!important; }
+		td[class=scale-right] { width: 100%!important; text-align: right!important;}
+		td[class=scale-right-bottom] { width: 100%!important; text-align: right!important; padding-bottom: 25px!important; }
+		td[class=scale-right-top] { width: 100%!important; text-align: right!important; padding-top: 25px!important; }
+		td[class=scale-right-all] { width: 100%!important; text-align: right!important; padding-top: 25px!important; padding-bottom: 25px!important; }
+		td[class=scale-center-extratop] { width: 100%!important; text-align: center!important; padding-top: 60px!important; }
+		td[class=reset] { height: 0px!important; }
+		td[class=hide] { height: 0px!important; display: none!important; }
+
+		p[class=reset] { margin-left: 0px!important; margin-right: 0px!important; }
+		p[class=reset-top] { margin-top: 0px!important; }
+
+		img[class="reset"] { display: inline!important; }
+		img[class="scale-img"] { width: 100%!important; }
+
+		br[class="hide"] { display: none!important; }
+		
+	}
+	
+	@media only screen and (max-width:600px){
+		.agileits-hleft,.agileits-rleft,.agileits-lleft{ 
+			width: 33% !important;
+		} 
+		td.agileinfo-title {
+			font-size: 35px !important;
+		}
+		td.about-w3btm {
+			height: 0;
+		}
+	}
+	@media only screen and (max-width:568px){
+		.w3ls-bnrtext {
+			font-size: 42px !important;
+			letter-spacing: 3px !important;
+			line-height: 54px;
+			padding-top: 20px !important;
+		}
+		td.w3l-bnrsbtext {
+			letter-spacing: 2px !important; 
+		} 
+		.agileits-w3layout-text {
+			font-size: 33px !important; 
+		}
+	}
+	@media only screen and (max-width:480px){
+		.agileits-hleft,.agileits-rleft{
+			width: inherit !important;
+		}
+		.agileits-lleft {
+			width: 42% !important;
+		} 
+		td.scale-center-both.s3agile-title{
+			height: 140px;
+		}
+	}
+	@media only screen and (max-width: 479px) {
+		body { width: auto !important; }
+		table[class="table600"] { width: 290px !important; }
+		table[class="table-inner"] { width: 90% !important; }
+		table[class="table2-2"] { width: 100% !important; text-align: center !important; }
+		table[class="table1-3"] { width: 100% !important; }
+		table[class="table3-1"] { width: 100% !important; text-align: center !important; }
+		table[class="table-full"] { width: 100% !important; text-align: center !important; }
+		/* image */
+		img[class="img1"] { width: 100% !important; height: auto !important; }
+		/* ETC */
+		td[class="hide"] { max-height: 0px !important; height: 0px !important; }
+		td[class="td-low"] { max-height: 15px !important; height: 25px !important; }
+		td[class="contact-button"] { border-top: 0px !important; }
+	
+    } 
+	 
+	@media only screen and (max-width:414px){
+		.agileits-lleft {
+			width: 100%!important;
+		}
+		table.agileits-hleft, table.agileits-rleft {
+			margin: 0px 0 18px;
+		}
+		.w3ls-bnrtext {
+			font-size: 35px !important;
+			letter-spacing: 2px !important;
+			line-height: 46px;
+			padding-top: 17px !important;
+		} 
+		.agileits-w3layout-text {
+			font-size: 30px !important;
+			letter-spacing: 3px !important;
+		}
+		table[class=scale75] {
+			width: 75%!important;
+		}
+	} 
+	@media only screen and (max-width:320px){
+		table.agileits-hleft td, table.agileits-rleft td {
+			font-size: 12px !important;
+		}
+		.w3ls-bnrtext {
+			font-size: 30px !important;
+			letter-spacing: 1px !important;
+			line-height: 40px;
+			padding-top: 10px !important;
+		}
+		td.w3l-bnrsbtext {
+			letter-spacing: 1px !important;
+			font-size: 12px !important;
+		}
+		.agileits-w3layout-text {
+			font-size: 28px !important;
+			letter-spacing: 1px !important;
+		}
+		td.agileinfo-title {
+			font-size: 32px !important;
+		}
+								 
+	}
+</style>  
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+	<!-- header -->
+	<table bgcolor="#FFFFFF" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+			<td align="center" background="images/banner.jpg" style="background-size:cover; background-position:center;">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center"> 
+					<tr>
+						<td style="background-color:rgba(21, 21, 21, 0.62);" data-bgcolor="Header">
+							<table width="600" border="0" align="center" cellpadding="0" cellspacing="0" class="table-inner">
+								<tr>
+									<td height="50" class="td-low"></td>
+								</tr>
+								<tr>
+									<td align="center">
+										<!-- left --> 
+										<table class="agileits-hleft" width="183" border="0" align="left" cellpadding="0" cellspacing="0">
+											<tr>
+												<td align="center" class="textbutton"  style="font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; color:#FFFFFF; font-size:13px;line-height: 28px;">
+													<a href="tel:+1429812280" style="color:#fff;text-decoration:none">
+													<img border="0" src="images/i1.png" alt="">&nbsp;&nbsp;01429 812280
+													</a>
+												</td>
+											</tr>
+										</table> 
+										<!-- end left -->
+										<!-- Space --> 
+										<table width="1" border="0" cellpadding="0" cellspacing="0" align="left">
+											<tr>
+												<td height="10" style="font-size: 0;line-height: 0px;border-collapse: collapse;">
+													<p style="padding-left: 24px;">&nbsp;</p>
+												</td>
+											</tr>
+										</table> 
+										<!-- End Space --> 
+										<!-- right --> 
+										<table class="agileits-rleft" width="183" border="0" align="right" cellpadding="0" cellspacing="0">
+											<tr>
+												<td align="center" class="textbutton" style="font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; color:#FFFFFF; font-size:13px;line-height: 28px;">
+													<img src="images/i2.png" alt="" border="0">&nbsp;&nbsp;Wed - Mon&nbsp;5pm - 10:30pm
+												</td>
+											</tr>
+										</table> 
+										<!-- end right --> 
+										<!-- Space --> 
+										<table width="1" border="0" cellpadding="0" cellspacing="0" align="right">
+											<tr>
+												<td height="10" style="font-size: 0;line-height: 0px;border-collapse: collapse;">
+													<p style="padding-left: 24px;">&nbsp;</p>
+												</td>
+											</tr>
+										</table> 
+										<!-- End Space --> 
+										<!-- logo --> 
+										<table  class="agileits-lleft" width="183" border="0" align="left" cellpadding="0" cellspacing="0">
+											<tr> 
+												<td valign="middle" align="center" style="line-height:20px;">
+													<a href="/" class="w3logo" style="font-size:2.8em;color:#fff;text-decoration:none;font-family:Bernard MT,serif; text-align:center;"><img src="images/logo.png" alt="Royal Garden" style="margin: auto 0; width: 150px;"/></a>
+												</td>
+											</tr>
+										</table> 
+										<!-- end logo -->
+									</td>
+								</tr>
+								<tr>
+									<td height="60" class="td-low"></td>
+								</tr>
+								<!-- Headline -->
+								<tr>
+									<td class="w3ls-bnrtext" align="center" style="text-decoration: none; color:#FFFFFF;font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif;font-family: Bernard MT,serif;font-size:71px;letter-spacing:6px;">
+										<singleline label="headline">Fresh Authentic<br/>Cantonese Food</singleline>
+									</td>
+								</tr>
+								<!-- end Headline -->
+								<tr>
+									<td height="10"></td>
+								</tr> 
+								<!-- sub headline -->
+								<tr>
+									<td class="w3l-bnrsbtext" align="center" style="font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; color:#fff; font-size:14px;letter-spacing:8px;">
+										<singleline label="sub-headline">Delivered to your doorstep everyday.</singleline>
+									</td>
+								</tr>
+								<!-- end sub headline -->
+								<tr>
+									<td height="20"></td>
+								</tr>  
+								<tr>
+									<td height="20"></td>
+								</tr>
+								<tr>
+									<td align="center">
+										<!-- button --> 
+										<table class="textbutton" align="center" border="0" cellpadding="0" cellspacing="0" >
+											<tr>
+												<td align="center" style="">
+													<a href="tel:+441429812280" style="text-decoration:none;font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; border-radius:5px; color:#ffffff; font-size:14px;padding: 13px 25px;display: inline-block;background-color:#F44336;">
+														Call to Order Now
+													</a>
+												</td>
+											</tr>
+										</table> 
+										<!-- end button -->
+									</td>
+								</tr>
+								<tr>
+									<td height="60"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>	
+			</td>
+		</tr>
+	</table>
+	<!-- end header --> 
+	<!-- services --> 
+	<table bgcolor="#f8f8f8" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td align="center">
+				<table class="table-inner" align="center" width="600" border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td height="50"></td>
+					</tr>  
+					<!-- headline -->
+					<tr>
+						<td align="center" style="font-family: 'Century Gothic', Arial, sans-serif; font-weight: bold; color:#414a51; font-size:22px;letter-spacing: 2px;">
+							<multiline label="Title">
+								Eat like an 
+								<span style="color:#91c444;">Emperor</span>
+							</multiline>
+						</td>
+					</tr>
+					<!-- end headline -->
+					<tr>
+						<td height="3"></td>
+					</tr>
+					<!-- subheadline -->
+					<tr>
+						<td align="center" style="font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; color:#a7aeb3; font-size:13px; line-height: 28px;">
+							<singleline label="sub-title">Delicious Chinese food the healthy &amp; smart way.</singleline>
+						</td>
+					</tr>
+					<!-- end subheadline -->
+					<tr>
+						<td height="40"></td>
+					</tr>
+					<tr>
+						<td>
+							<!-- left --> 
+							<table class="table-full" width="183" border="0" align="left" cellpadding="0" cellspacing="0">
+								<!--icon-->
+								<tr>
+									<td height="35" align="center" style="line-height: 0px;">
+										<a href="/menu2016.pdf"><img label="icon-1" style="display:block; line-height:0px; font-size:0px; border:0px;" src="images/i3.png" alt="img" width="80" height="80" /></a>
+									</td>
+								</tr>
+								<!-- end icon -->
+								<tr>
+									<td height="15"></td>
+								</tr>
+								<!-- content -->
+								<tr>
+									<td align="center" style="font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; color:#7f8c8d; font-size:14px; line-height: 28px;">
+										<multiline label="content">We offer all of your favourite dishes - <a href="/menu2016.pdf">see our menu</a>.</multiline>
+									</td>
+								</tr>
+								<!-- end content -->
+								<tr>
+									<td height="15"></td>
+								</tr> 
+							</table> 
+							<!-- end left --> 
+							<!-- Space --> 
+							<table width="1" border="0" cellpadding="0" cellspacing="0" align="left">
+								<tr>
+									<td height="40" style="font-size: 0;line-height: 0px;border-collapse: collapse;">
+										<p style="padding-left: 24px;">&nbsp;</p>
+									</td>
+								</tr>
+							</table> 
+							<!-- End Space --> 
+							<!-- middle --> 
+							<table class="table-full" width="183" border="0" align="left" cellpadding="0" cellspacing="0">
+								<!-- icon -->
+								<tr>
+									<td height="35" align="center" style="line-height: 0px;">
+										<img label="icon-2" style="display:block; line-height:0px; font-size:0px; border:0px;"  src="images/i4.png" alt="img" width="80" height="80" />
+									</td>
+								</tr>
+								<!-- end icon -->
+								<tr>
+									<td height="15"></td>
+								</tr>
+								<!-- content -->
+								<tr>
+									<td align="center" style="font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; color:#7f8c8d; font-size:14px; line-height: 28px;">
+										<multiline label="content">Always freshly cooked to your order - the healthy way. </multiline>
+									</td>
+								</tr>
+								<!-- end content -->
+								<tr>
+									<td height="15"></td>
+								</tr> 
+							</table> 
+							<!-- end middle --> 
+							<!-- Space -->
+
+							<table width="1" border="0" cellpadding="0" cellspacing="0" align="left">
+								<tr>
+									<td height="40" style="font-size: 0;line-height: 0px;border-collapse: collapse;">
+										<p style="padding-left: 24px;">&nbsp;</p>
+									</td>
+								</tr>
+							</table> 
+							<!-- End Space --> 
+							<!--right--> 
+							<table class="table-full" width="183" border="0" align="right" cellpadding="0" cellspacing="0">
+								<!--icon-->
+								<tr>
+									<td height="35" align="center" style="line-height: 0px;">
+										<img label="icon-3" style="display:block; line-height:0px; font-size:0px; border:0px;"  src="images/i5.png" alt="img" width="80" height="80" />
+									</td>
+								</tr>
+								<!-- end icon -->
+								<tr>
+									<td height="15"></td>
+								</tr>
+								<!-- content -->
+								<tr>
+									<td align="center" style="font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; color:#7f8c8d; font-size:14px; line-height: 28px;">
+										<multiline label="content">You could even have it delivered straight to your door.</multiline>
+									</td>
+								</tr>
+								<!-- end content -->
+								<tr>
+									<td height="15"></td>
+								</tr> 
+							</table> 
+							<!-- end right -->
+						</td>
+					</tr>
+					<tr>
+						<td height="40"></td>
+					</tr>  
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td height="50" class="about-w3btm" bgcolor="#FFFFFF"></td>
+		</tr>
+	</table>
+	<!-- //services -->
+	<!-- offers -->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="Banner">
+		<tr>
+			<td>
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+					<tr>
+						<td style="background-color: #91c444;" data-bgcolor="Banner">
+
+							<table width="620" border="0" cellspacing="0" cellpadding="0" align="center" class="scale85">
+								<tr><td height="60">&nbsp;</td></tr>
+								<tr>
+									<td align="center" style="font-family:Bernard MT,serif; font-size: 50px; color: #ffffff;letter-spacing: 8px;" class="agileits-w3layout-text">
+										OUR MENU
+									</td>
+								</tr>
+								<tr><td height="30">&nbsp;</td></tr>
+								<tr>
+									<td align="center">
+										<!-- button --> 
+										<table class="textbutton" align="center" border="0" cellpadding="0" cellspacing="0">
+											<tbody><tr>
+												<td align="center" style="">
+													<a href="/menu2017.pdf" style="text-decoration:none;font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; border-radius:5px; color:#ffffff; font-size:14px;padding: 13px 25px;display: inline-block;background-color:#F44336;">
+														View Our Menu (PDF)
+													</a>
+												</td>
+											</tr>
+										</tbody></table> 
+										<!-- end button -->
+									</td>
+								</tr> 
+								<tr><td height="30">&nbsp;</td></tr>
+								<tr>
+									<td align="center" style="font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; color:#fff; font-size:15px; line-height: 28px;">
+										<multiline label="content">The quickest and easiest way to order is just to give us a ring: <a href="tel:+441429812280">01429 812280</a>. You can order your meal to be collected at our shop or have it delivered. Please note we only accept cash only. Scroll down for our address.<br/>We are open every day of the week except Tuesday, 5 pm to 10:30 pm.</multiline>
+									</td>
+								</tr>
+								<tr><td height="30">&nbsp;</td></tr>
+								<tr>
+									<td align="center">
+										<!-- button --> 
+										<table class="textbutton" align="center" border="0" cellpadding="0" cellspacing="0">
+											<tbody><tr>
+												<td align="center" style="">
+													<a href="/menu2017.pdf" style="text-decoration:none;font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; border-radius:5px; color:#ffffff; font-size:14px;padding: 13px 25px;display: inline-block;background-color:#F44336;">
+														View Our Menu (PDF)
+													</a>
+												</td>
+											</tr>
+										</tbody></table> 
+										<!-- end button -->
+									</td>
+								</tr> 
+								<tr><td height="60">&nbsp;</td></tr>
+							</table> 
+						</td>
+					</tr>
+				</table> 
+			</td>
+		</tr> 
+	</table>
+	
+	<!-- map --> 
+	<table align="center" width="100%" border="0" cellspacing="0" cellpadding="0" class="scale map" bgcolor="#fff">
+		<tr>
+			<td height="60"></td>
+		</tr> 
+		<tr>
+			<td align="center">
+				<table background="#fff" class="table-inner" align="center" width="600" border="0" cellpadding="0" cellspacing="0">
+					<!-- headline -->
+					<tr>
+						<td class="agileinfo-title" align="center" style="font-family: 'Century Gothic', Arial, sans-serif; color:#414a51; font-size:42px;">
+							Find Us
+						</td>
+					</tr>
+					<!-- end headline -->  
+					<tr>
+						<td height="35"></td>
+					</tr>
+					<tr>
+						<td align="center" style="font-family: source_sans_prosemibold, Helvetica, Arial, sans-serif; color:#414a51; font-size:15px; line-height: 28px;">
+							<multiline label="content">Give us a call: <a href="tel:+441429812280">01429 812280</a>.<br/><br/>Our shop's address is:<br/>1 Bright Street, Hartlepool<br/>TS26 8JY</multiline>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<table  background="#fff" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="scale">
+								<tbody> 
+									<tr>
+										<td class="scale-center-bottom-both">
+											  <iframe src="https://www.google.com/maps/embed/v1/place?q=1%20Bright%20Street,%20Hartlepool,UK&zoom=17&key=AIzaSyC5qf67-3oo9GBCJrNrMC4nPpmplQClV8s" style="border:0" width="100%" height="200px"></iframe>
+										</td>
+									</tr> 
+								</tbody>
+							</table>
+						</td>	
+					</tr> 
+				</table>
+			</td> 	 
+		</tr>
+		<tr>
+			<td height="60" bgcolor="#FFFFFF"></td>
+		</tr>
+	</table>
+	<!-- //map --> 
+	<!-- LINKS -->
+	<table bgcolor="#414a51" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="Links">
+		<tr>
+			<td>
+				<table width="620" border="0" cellspacing="0" cellpadding="0" align="center" class="table-inner">
+					<tr><td height="60">&nbsp;</td></tr>
+					<tr>
+						<td>
+							<table width="290" border="0" cellspacing="0" cellpadding="0" align="left" class="scale">
+								<tr>
+									<td>
+										<table width="125" border="0" cellspacing="0" cellpadding="0" align="left" class="scale">
+											<tr> 
+												<td class="scale-center-both" style="text-align: left; line-height: 24px; color:#fff; font-family: 'Century Gothic', Arial, sans-serif; font-size: 18px;text-transform: uppercase;letter-spacing: 1px;" data-color="Paragraphs Small">
+													Open
+												</td>
+											</tr>
+											<tr><td height="15">&nbsp;</td></tr>
+											<tr>
+												<td class="scale-center" >
+													<a href="#" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#a9a9a9; text-decoration: none;" >Wed - Mon</a>
+												</td>
+											</tr>
+											<tr><td height="15"> </td></tr>
+											<tr>
+												<td class="scale-center" >
+													<a href="#" style="font-size: 14px; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#a9a9a9; text-decoration: none;">5 pm - 10:30 pm</a>
+												</td>
+											</tr>
+											<tr><td height="40">&nbsp;</td></tr>
+										</table>
+										<table width="125" border="0" cellspacing="0" cellpadding="0" align="right" class="scale">
+											<tr>  
+												<td class="scale-center-both" style="text-align: left; line-height: 24px; color:#fff; font-family: 'Century Gothic', Arial, sans-serif; font-size: 18px;text-transform: uppercase;letter-spacing: 1px;">
+													order
+												</td>
+											</tr>
+											<tr><td height="15">&nbsp;</td></tr>
+											<tr>
+												<td class="scale-center">
+													<a href="tel:+441429812280" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#a9a9a9; text-decoration: none;">Place order over phone.</a>
+												</td>
+											</tr>
+											<tr><td height="15"> </td></tr>
+											<tr>
+												<td class="scale-center">
+													<a href="tel:+441429812280" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#a9a9a9; text-decoration: none;">Accept cash only - sorry!</a>
+												</td>
+											</tr>
+											<tr><td height="40">&nbsp;</td></tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<table width="290" border="0" cellspacing="0" cellpadding="0" align="right" class="scale">
+								<tr>
+									<td>
+										<table width="125" border="0" cellspacing="0" cellpadding="0" align="left" class="scale">
+											<tr>
+												<td class="scale-center-both" style="text-align: left; line-height: 24px; color:#fff; font-family: 'Century Gothic', Arial, sans-serif; font-size: 18px;text-transform: uppercase;letter-spacing: 1px;" data-color="Paragraphs Small" data-size="Paragraphs Small" data-min="12" data-max="20">
+													Delivery
+												</td>
+											</tr>
+											<tr><td height="15">&nbsp;</td></tr>
+											<tr>
+												<td class="scale-center" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#a9a9a9; text-decoration: none;">
+													&pound;1 within 3 miles 
+												</td>
+											</tr>
+											<tr><td height="15"> </td></tr>
+											<tr>
+												<td class="scale-center" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#a9a9a9; text-decoration: none;">
+													min order &pound;5 | last order 10pm
+												</td>
+											</tr>
+											<tr><td height="40">&nbsp;</td></tr>
+										</table>
+										<table width="125" border="0" cellspacing="0" cellpadding="0" align="right" class="scale">
+											<tr> 
+												<td class="scale-center-both" style="text-align: left; line-height: 24px; color:#fff; font-family: 'Century Gothic', Arial, sans-serif; font-size: 18px;text-transform: uppercase;letter-spacing: 1px;" data-color="Paragraphs Small" data-size="Paragraphs Small" data-min="12" data-max="20">
+													address
+												</td>
+											</tr>
+											<tr><td height="15">&nbsp;</td></tr>
+											<tr>
+												<td class="scale-center" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#a9a9a9; text-decoration: none;">
+													1 Bright Street, Hartlepool
+												</td>
+											</tr>
+											<tr><td height="15"> </td></tr>
+											<tr>
+												<td class="scale-center" style="font-size: 14px; text-transform:capitalize; text-align: left; font-family: source_sans_probold, Helvetica, Arial, sans-serif; color:#a9a9a9; text-decoration: none;">
+													TS26 8JY
+												</td> 
+											</tr>
+											<tr><td height="40">&nbsp;</td></tr>
+										</table>
+									</td>
+								</tr> 
+							</table>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table> 
+	<!-- SOCIAL MEDIA -->
+	<table bgcolor="#414a51" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="Social Media">
+		<tr>
+			<td data-bgcolor="Body">
+				<table width="620" border="0" cellspacing="0" cellpadding="0" align="center" class="table-inner">
+					<tr>
+						<td align="center" style="text-align: center; line-height: 24px; color:#fff; font-family: 'Century Gothic', Arial, sans-serif; font-size: 18px;text-transform: uppercase;letter-spacing: 1px;">
+							Find us on <a href="https://www.facebook.com/RoyalGardenHartlepool" target="_blank"><img src="images/s1.png" style="max-width: 32px;" alt="facebook" data-crop="false" /></a>
+						</td>
+					</tr>
+					<tr><td height="50">&nbsp;</td></tr>
+				</table>
+			</td>
+		</tr>
+	</table> 
+	<table bgcolor="#353d44" width="100%" border="0" cellspacing="0" cellpadding="0" align="center" data-module="Footer">
+		<tr>
+			<td>
+				<table width="620" border="0" cellspacing="0" cellpadding="0" align="center" class="table-inner">
+					<tr><td height="40">&nbsp;</td></tr>
+					<tr>
+						<td class="scale-center-both" align="center" style="line-height: 24px; color:#fff; font-family: source_sans_proregular, Helvetica, Arial, sans-serif; font-size: 14px;" data-color="Paragraphs Small">
+							We always welcome your feedback - over the phone or message us on Facebook. :)<br><a href="\terms" style="line-height: 24px; color: #fff; font-family: source_sans_proregular, Helvetica, Arial, sans-serif; font-size: 14px;">Terms</a> | <a href="\privacy" style="line-height: 24px; color: #fff; font-family: source_sans_proregular, Helvetica, Arial, sans-serif; font-size: 14px;">Privacy &amp; Cookies</a>
+						</td>
+					</tr>
+					<tr><td height="20">&nbsp;</td></tr>
+					<tr><td height="15" style="border-top:1px solid #505a61;"></td></tr>
+					<tr>
+						<td height="35" style="font-family: source_sans_proregular, Helvetica, Arial, sans-serif; font-size: 1em; color: #fff; line-height: 24px;text-align:center;" class="copy-right">
+							&copy; 2016 Royal Garden. All rights reserved | Design by <a href="http://w3layouts.com/" style="color: #f44336; text-decoration:none;">W3layouts</a>
+						</td>
+					</tr> 
+					<tr><td height="40">&nbsp;</td></tr>
+				</table>
+			</td>
+		</tr>
+	</table> 
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-97648969-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</body>
+</html>
